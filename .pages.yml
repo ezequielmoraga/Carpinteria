@@ -1,0 +1,79 @@
+# Administrador visual de Pages CMS: https://app.pagescms.org
+# Subí este repositorio a GitHub e instalá Pages CMS para editar sin tocar código.
+media:
+  input: media
+  output: /media
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  - name: configuracion
+    label: '01 · Presentación y contacto'
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - { name: brand, label: 'Nombre comercial', type: string, required: true }
+      - { name: tagline, label: 'Texto debajo del logo', type: string }
+      - { name: heroEyebrow, label: 'Frase corta de portada', type: string }
+      - { name: heroFirst, label: 'Título principal (línea 1)', type: string }
+      - { name: heroSecond, label: 'Título principal (línea 2)', type: string }
+      - { name: heroDescription, label: 'Texto de portada', type: text }
+      - { name: heroImage, label: 'Foto grande de portada', type: image }
+      - { name: aboutEyebrow, label: 'Frase de presentación', type: string }
+      - { name: aboutTitle, label: 'Título de Nosotros', type: string }
+      - { name: aboutDescription, label: 'Texto de Nosotros', type: text }
+      - { name: aboutImage, label: 'Foto de Nosotros', type: image }
+      - { name: servicesIntro, label: 'Introducción a Servicios', type: text }
+      - { name: projectsIntro, label: 'Introducción a Galería', type: text }
+      - { name: contactTitle, label: 'Título de Contacto', type: string }
+      - { name: contactDescription, label: 'Texto de Contacto', type: text }
+      - { name: whatsapp, label: 'WhatsApp con código de país (ej. 549...)', type: string }
+      - { name: instagram, label: 'Enlace completo a Instagram', type: string }
+      - { name: email, label: 'Correo electrónico', type: string }
+      - { name: city, label: 'Ciudad o zona de trabajo', type: string }
+
+  - name: servicios
+    label: '02 · Servicios'
+    type: file
+    path: data/services.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: 'Nombre del servicio', type: string, required: true }
+      - { name: description, label: 'Descripción', type: text }
+      - name: icon
+        label: Ícono
+        type: select
+        options:
+          values:
+            - { name: kitchen, label: 'Cocina' }
+            - { name: wardrobe, label: 'Placard' }
+            - { name: furniture, label: 'Mueble' }
+            - { name: tools, label: 'Herramientas' }
+
+  - name: proyectos
+    label: '03 · Trabajos y fotografías'
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: 'Título del trabajo', type: string, required: true }
+      - name: category
+        label: Categoría
+        type: select
+        required: true
+        options:
+          values: [Cocinas, Placares, Muebles, Otros]
+      - { name: description, label: 'Descripción del trabajo', type: text }
+      - { name: image, label: 'Foto principal', type: image }
+      - name: gallery
+        label: 'Fotografías adicionales (opcional)'
+        type: image
+        options:
+          multiple:
+            max: 8
+          unique: true
+      - { name: visible, label: 'Publicado en la web', type: boolean, default: true }
+      - { name: example, label: 'Es una imagen ilustrativa (NO es trabajo real)', type: boolean, default: false }

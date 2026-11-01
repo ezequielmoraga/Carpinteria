@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Cocinas y alacenas",
+    "description": "Muebles que aprovechan el espacio y simplifican la vida de todos los días.",
+    "icon": "kitchen"
+  },
+  {
+    "title": "Placares y vestidores",
+    "description": "Interior, distribución y terminaciones para ordenar cada centímetro.",
+    "icon": "wardrobe"
+  },
+  {
+    "title": "Muebles a medida",
+    "description": "Bibliotecas, escritorios, mesas y diseños pensados para tu ambiente.",
+    "icon": "furniture"
+  },
+  {
+    "title": "Otros trabajos",
+    "description": "Consultanos por reparaciones, mejoras y proyectos particulares.",
+    "icon": "tools"
+  }
+]
