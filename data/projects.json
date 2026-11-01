@@ -3,54 +3,42 @@
     "title": "Cocina de líneas cálidas",
     "category": "Cocinas",
     "description": "Inspiración para cocinas a medida.",
-    "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   },
   {
     "title": "Mueble integrado",
     "category": "Muebles",
     "description": "Ideas para aprovechar espacios de estar.",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   },
   {
     "title": "Guardado funcional",
     "category": "Placares",
     "description": "Soluciones prácticas y terminaciones actuales.",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   },
   {
     "title": "Detalles de interior",
     "category": "Muebles",
     "description": "Una referencia de materiales y terminaciones.",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   },
   {
     "title": "Ambientes conectados",
     "category": "Cocinas",
     "description": "Muebles que se integran a cada ambiente.",
-    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   },
   {
     "title": "Orden y simplicidad",
     "category": "Placares",
     "description": "Inspiración para espacios de guardado.",
-    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
     "visible": true,
-    "example": true,
-    "gallery": []
+    "example": true
   }
 ]
