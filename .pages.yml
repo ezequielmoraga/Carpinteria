@@ -65,7 +65,7 @@ content:
         type: select
         required: true
         options:
-          values: [Cocinas, Placares, Muebles, Otros]
+          values: ["Cocinas", "Diseño digital", "Escaleras", "Recibidores", "Lavaderos", "Muebles", "Personalizados", "Pisos", "Placares", "Restauraciones", "Vehículos"]
       - { name: description, label: 'Descripción del trabajo', type: text }
       - { name: image, label: 'Foto principal', type: image }
       - name: gallery

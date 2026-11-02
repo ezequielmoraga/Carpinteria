@@ -93,6 +93,30 @@ function projectPhotos(project) {
   return [project.image, ...(Array.isArray(project.gallery) ? project.gallery : [])]
     .map(safeImageUrl).filter(Boolean);
 }
+
+function renderFilters() {
+  const container = $('#filters');
+  const categories = [...new Set(
+    content.projects
+      .filter(p => p.visible !== false)
+      .map(p => p.category)
+      .filter(Boolean)
+  )];
+
+  container.replaceChildren();
+
+  for (const category of ['Todos', ...categories]) {
+    const button = create('button', '', category);
+    button.type = 'button';
+    button.dataset.filter = category;
+    button.setAttribute(
+      'aria-pressed',
+      String(category === selectedCategory)
+    );
+    container.append(button);
+  }
+}
+
 function renderProjects() {
   const grid = $('#project-grid');
   grid.replaceChildren();
@@ -208,6 +232,7 @@ async function loadData() {
   content = { ...site, services, projects };
   renderSite(site);
   renderServices();
+  renderFilters();
   renderProjects();
 }
 

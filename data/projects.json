@@ -1,44 +1,167 @@
 [
   {
-    "title": "Cocina de líneas cálidas",
+    "title": "Cocinas a medida",
     "category": "Cocinas",
-    "description": "Inspiración para cocinas a medida.",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/cocinas-a-medida/foto-0081.jpg",
+    "gallery": [
+      "/media/galeria/cocinas-a-medida/foto-0177.jpg",
+      "/media/galeria/cocinas-a-medida/foto-0334.jpg",
+      "/media/galeria/cocinas-a-medida/foto-0339.jpg",
+      "/media/galeria/cocinas-a-medida/foto-0508.jpg",
+      "/media/galeria/cocinas-a-medida/foto-0510.jpg"
+    ],
     "visible": true,
-    "example": true
+    "example": false
   },
   {
-    "title": "Mueble integrado",
+    "title": "Diseño computarizado de muebles",
+    "category": "Diseño digital",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/diseno-digital/foto-0400.jpg",
+    "gallery": [
+      "/media/galeria/diseno-digital/foto-0422.jpg",
+      "/media/galeria/diseno-digital/foto-0448.jpg",
+      "/media/galeria/diseno-digital/foto-0470.jpg",
+      "/media/galeria/diseno-digital/foto625.png",
+      "/media/galeria/diseno-digital/foto626.png"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Escaleras de madera a medida",
+    "category": "Escaleras",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/escaleras-de-madera/foto-0220.jpg",
+    "gallery": [
+      "/media/galeria/escaleras-de-madera/foto-0221.jpg",
+      "/media/galeria/escaleras-de-madera/foto-0259.jpg",
+      "/media/galeria/escaleras-de-madera/foto-0264.jpg",
+      "/media/galeria/escaleras-de-madera/foto-0267.jpg",
+      "/media/galeria/escaleras-de-madera/foto-0272.jpg"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Recibidores y muebles de entrada",
+    "category": "Recibidores",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/recibidores-a-medida/foto-0011.jpg",
+    "gallery": [
+      "/media/galeria/recibidores-a-medida/foto-0014.jpg",
+      "/media/galeria/recibidores-a-medida/foto-0325.jpg",
+      "/media/galeria/recibidores-a-medida/foto-0331.jpg",
+      "/media/galeria/recibidores-a-medida/foto-0351.jpg",
+      "/media/galeria/recibidores-a-medida/foto-0352.jpg"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Muebles para lavaderos",
+    "category": "Lavaderos",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/lavaderos-a-medida/foto-0084.jpg",
+    "gallery": [
+      "/media/galeria/lavaderos-a-medida/foto-0105.jpg",
+      "/media/galeria/lavaderos-a-medida/foto-0295.jpg",
+      "/media/galeria/lavaderos-a-medida/foto-03.jpg",
+      "/media/galeria/lavaderos-a-medida/foto-0327.jpg",
+      "/media/galeria/lavaderos-a-medida/foto-0523.jpg"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Muebles a medida para el hogar",
     "category": "Muebles",
-    "description": "Ideas para aprovechar espacios de estar.",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/muebles-a-medida/foto-0005.jpg",
+    "gallery": [
+      "/media/galeria/muebles-a-medida/foto-0149.jpg",
+      "/media/galeria/muebles-a-medida/foto-0156.jpg",
+      "/media/galeria/muebles-a-medida/foto-0158.jpg",
+      "/media/galeria/muebles-a-medida/foto-0285.jpg",
+      "/media/galeria/muebles-a-medida/foto-0289.jpg"
+    ],
     "visible": true,
-    "example": true
+    "example": false
   },
   {
-    "title": "Guardado funcional",
+    "title": "Proyectos personalizados",
+    "category": "Personalizados",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/proyectos-personalizados/foto-0200.jpg",
+    "gallery": [
+      "/media/galeria/proyectos-personalizados/foto-0203.jpg",
+      "/media/galeria/proyectos-personalizados/foto-0394.jpg",
+      "/media/galeria/proyectos-personalizados/foto-0567.jpeg",
+      "/media/galeria/proyectos-personalizados/foto628.png",
+      "/media/galeria/proyectos-personalizados/foto637.png"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Pisos y revestimientos de madera",
+    "category": "Pisos",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/pisos-de-madera/foto-0420.jpg",
+    "gallery": [
+      "/media/galeria/pisos-de-madera/foto-0425.jpg",
+      "/media/galeria/pisos-de-madera/foto-0445.jpg",
+      "/media/galeria/pisos-de-madera/foto-0504.jpeg",
+      "/media/galeria/pisos-de-madera/foto-0582.jpg",
+      "/media/galeria/pisos-de-madera/foto-0611.jpg"
+    ],
+    "visible": true,
+    "example": false
+  },
+  {
+    "title": "Placares y vestidores a medida",
     "category": "Placares",
-    "description": "Soluciones prácticas y terminaciones actuales.",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/placares-y-vestidores/foto-0246.jpg",
+    "gallery": [
+      "/media/galeria/placares-y-vestidores/foto-0248.jpg",
+      "/media/galeria/placares-y-vestidores/foto-0255.jpg",
+      "/media/galeria/placares-y-vestidores/foto-0305.jpg",
+      "/media/galeria/placares-y-vestidores/foto-0306.jpg",
+      "/media/galeria/placares-y-vestidores/foto-0307.jpg"
+    ],
     "visible": true,
-    "example": true
+    "example": false
   },
   {
-    "title": "Detalles de interior",
-    "category": "Muebles",
-    "description": "Una referencia de materiales y terminaciones.",
+    "title": "Restauración y renovación de muebles",
+    "category": "Restauraciones",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/restauracion-de-muebles/foto-0465.jpg",
+    "gallery": [
+      "/media/galeria/restauracion-de-muebles/foto-0577.jpg",
+      "/media/galeria/restauracion-de-muebles/foto-0579.jpg",
+      "/media/galeria/restauracion-de-muebles/foto-0581.jpg",
+      "/media/galeria/restauracion-de-muebles/foto-0593.jpg",
+      "/media/galeria/restauracion-de-muebles/foto-0598.jpg"
+    ],
     "visible": true,
-    "example": true
+    "example": false
   },
   {
-    "title": "Ambientes conectados",
-    "category": "Cocinas",
-    "description": "Muebles que se integran a cada ambiente.",
+    "title": "Equipamiento de vehículos a medida",
+    "category": "Vehículos",
+    "description": "Diseño y trabajos realizados a medida.",
+    "image": "/media/galeria/equipamiento-vehiculos/foto-0123.jpg",
+    "gallery": [
+      "/media/galeria/equipamiento-vehiculos/foto-0162.jpg",
+      "/media/galeria/equipamiento-vehiculos/foto-017.jpg",
+      "/media/galeria/equipamiento-vehiculos/foto-0313.jpg",
+      "/media/galeria/equipamiento-vehiculos/foto-0319.jpg",
+      "/media/galeria/equipamiento-vehiculos/foto-0322.jpg"
+    ],
     "visible": true,
-    "example": true
-  },
-  {
-    "title": "Orden y simplicidad",
-    "category": "Placares",
-    "description": "Inspiración para espacios de guardado.",
-    "visible": true,
-    "example": true
+    "example": false
   }
 ]
